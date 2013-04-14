@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Included header.xml here -->
+	<ViewStub android:id="@+id/vsHeader" 
+	    android:inflatedId="@+id/header" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout="@layout/header" />
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="6dip">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_eclair"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/EclairActivityTitle"
+            android:drawableTop="@drawable/android_eclair_logo"/>
+        <Button android:id="@+id/main_btn_froyo"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/FroyoActivityTitle"
+            android:drawableTop="@drawable/android__logo_froyo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_gingerbread"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/GingerbreadActivityTitle"
+            android:drawableTop="@drawable/android_gingerbread_logo"/>
+        <Button android:id="@+id/main_btn_honeycomb"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/HoneycombActivityTitle"
+            android:drawableTop="@drawable/android_honeycomb_logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_ics"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/ICSActivityTitle"
+            android:drawableTop="@drawable/android_ics_logo"/>
+        <Button android:id="@+id/main_btn_jellybean"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/JellyBeanActivityTitle"
+            android:drawableTop="@drawable/android_jellybean_logo"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DashBoardExampleActivity!</string>
+    <string name="app_name">DashBoardExample</string>
+
+    <string name="txtDemo">This is the DashBoard pattern example by Paresh N. Mayani @ www.technotalkative.com </string>
+    
+    <!-- Activity Titles -->
+    <string name="HomeActivityTitle">TechnoTalkative | Dashboard pattern example</string>
+    <string name="FeedbackActivityTitle">Feedback</string>
+    <string name="EclairActivityTitle">Eclair 2.0/2.1</string>
+    <string name="FroyoActivityTitle">Froyo 2.2</string>
+    <string name="GingerbreadActivityTitle">Gingerbread 2.3.x</string>
+    <string name="HoneycombActivityTitle">Honeycomb 3.x.x</string>
+    <string name="ICSActivityTitle">ICS 4.0.x</string>
+    <string name="JellyBeanActivityTitle">JellyBean (May be 4.1)</string>
+</resources>
